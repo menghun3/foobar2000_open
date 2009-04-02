@@ -1,0 +1,126 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CONFIG DIALOGEX 0, 0, 250, 170
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_CONTROLPARENT
+CAPTION "VLevel configuration"
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    CONTROL         "Slider1",IDC_STRENGTH,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,12,27,237,15
+    CONTROL         "Slider1",IDC_MAX_MULTIPLIER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,12,69,237,15
+    CTEXT           "25",IDC_STATIC_MAX_MULTIPLIER,139,84,53,8,SS_CENTERIMAGE
+    LTEXT           "1 (+0.0 dB)",IDC_STATIC,20,59,45,8
+    LTEXT           "100 (+40.0 dB)",IDC_STATIC,194,59,55,8
+    RTEXT           "max. multiplier:",IDC_STATIC,82,84,50,8
+    CTEXT           "0.80",IDC_STATIC_STRENGTH,132,43,29,8,SS_CENTERIMAGE
+    RTEXT           "strength:",IDC_STATIC,93,43,38,8
+    LTEXT           "0.00",IDC_STATIC,20,17,21,8
+    LTEXT           "1.00",IDC_STATIC,225,17,24,8
+    CONTROL         "",IDC_BUFFER_LENGTH,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,12,112,237,15
+    CTEXT           "2.0 s",IDC_STATIC_BUFFER_LENGTH,132,127,29,8,SS_CENTERIMAGE
+    LTEXT           "0.1",IDC_STATIC,20,102,21,8
+    LTEXT           "5.0",IDC_STATIC,225,102,24,8
+    RTEXT           "buffer length:",IDC_STATIC,86,127,46,8
+    PUSHBUTTON      "OK",IDOK,143,153,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,199,153,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_CONFIG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 249
+        VERTGUIDE, 12
+        VERTGUIDE, 114
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 167
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
